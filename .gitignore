@@ -73,3 +73,12 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+# UE打包输出文件夹，忽略所有打包成品
+Packaged_Latest_20260928_155641/
+# 忽略pdb调试文件（就是你那个293M的文件）
+*.pdb
+# Unreal额外推荐忽略（以后都省心）
+Binaries/
+Saved/
+Intermediate/
+DerivedDataCache/
